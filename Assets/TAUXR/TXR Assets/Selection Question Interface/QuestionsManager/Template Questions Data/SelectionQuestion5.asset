@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7687793c2afe104784ae3afc211c70c, type: 3}
+  m_Name: SelectionQuestion5
+  m_EditorClassIdentifier: 
+  Text: Selection question 1 text
+  Answers:
+  - Text: Answer 1
+    IsCorrect: 0
+    AnswerInfo: 
+  - Text: Answer 2
+    IsCorrect: 1
+    AnswerInfo: 
+  - Text: Answer 3
+    IsCorrect: 0
+    AnswerInfo: 
+  - Text: Answer 4
+    IsCorrect: 0
+    AnswerInfo: 
+  NumberOfTries: 0
+  MaxNumberOfTries: 4
+  MultipleSelection: 0

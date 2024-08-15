@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db77b1876dba29147a11fbd19282110d, type: 3}
+  m_Name: TXRPrefabManager
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - Prefab: {fileID: 5244916601612165859, guid: 16ee61d410c83e549b07a5234f3e8fab,
+      type: 3}
+    Name: Text Display
+    Image: {fileID: 2800000, guid: 5a1ca8bb662a6de449c5f1b135481e3c, type: 3}
+  - Prefab: {fileID: 2033106044736101866, guid: b6872ffe2cf970b468589d957b4c24f3,
+      type: 3}
+    Name: Button
+    Image: {fileID: 2800000, guid: 0f7dce7b61fbea042ae5d89edaf048cb, type: 3}
+  - Prefab: {fileID: 9142429068915286185, guid: 3a30eae8307e28c438c295d4d9eb1f0f,
+      type: 3}
+    Name: Slider
+    Image: {fileID: 0}
+  - Prefab: {fileID: 2051208840555239303, guid: 32c09fe936666ed42bb3153aef6a6116,
+      type: 3}
+    Name: Toggle Button
+    Image: {fileID: 0}
+  - Prefab: {fileID: 4503798423826871359, guid: f899305186a85f244ba523aa50bdb3c4,
+      type: 3}
+    Name: Selection Question
+    Image: {fileID: 0}
+  - Prefab: {fileID: 3919909416128606375, guid: ede7975256ffcb546ab9f3563180f431,
+      type: 3}
+    Name: TXR Center Model
+    Image: {fileID: 0}

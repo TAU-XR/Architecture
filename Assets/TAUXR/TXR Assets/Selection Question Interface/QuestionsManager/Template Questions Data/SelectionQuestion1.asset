@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7687793c2afe104784ae3afc211c70c, type: 3}
+  m_Name: SelectionQuestion1
+  m_EditorClassIdentifier: 
+  Text: Based on this and your previous answers, what is the most probable mechanism,
+    through which the Glu to Val mutation interferes with the biological activity
+    of hemoglobin?
+  Answers:
+  - Text: Clashing of Val with other amino acids, causing the protein to unfold
+    IsCorrect: 0
+    AnswerInfo: impossible, since the amino acid is fully exposed
+  - Text: Inducing long-range conformational changes that decrease the affinity of
+      the heme to oxygen.
+    IsCorrect: 0
+    AnswerInfo: "unlikely, because Glu6\u2019s side chain does not form any interactions
+      with other amino acids"
+  - Text: Since Glu6 is exposed, far from the heme group, and points away from the
+      protein, it probably acts through interactions with another molecule.
+    IsCorrect: 1
+    AnswerInfo: Answer 3 Info
+  - Text: 'Since Glu6 is exposed, far from the heme group, and points away from the
+      protein, it probably acts through interactions with another molecule. '
+    IsCorrect: 0
+    AnswerInfo: Answer 4 Info
+  MaxNumberOfTries: 4
+  MultipleSelection: 0
