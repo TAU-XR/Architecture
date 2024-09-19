@@ -220,6 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1d48bed76ec10d74d8e6ce48012d3ffc,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d48bed76ec10d74d8e6ce48012d3ffc,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3608,6 +3613,11 @@ PrefabInstance:
     - target: {fileID: 2467558913175776051, guid: 2868ba86d88bd8d42bdee2814ae48997,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906324714941945467, guid: 2868ba86d88bd8d42bdee2814ae48997,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4618144389330784203, guid: 2868ba86d88bd8d42bdee2814ae48997,
