@@ -3,7 +3,17 @@ guid: d880082b46db88145aa2d90b40d26213
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark
+    second: {fileID: 2100000, guid: 6b7b398c058c776469673510cff21ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaves
+    second: {fileID: 2100000, guid: 6c4b703683317c34e940ab543bed6d46, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
