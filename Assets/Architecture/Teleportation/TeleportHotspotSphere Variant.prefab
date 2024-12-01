@@ -288,32 +288,32 @@ PrefabInstance:
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.5375019
+      value: 2.101555
       objectReference: {fileID: 0}
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.86575294
+      value: 0.49354917
       objectReference: {fileID: 0}
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Size.z
-      value: 1.2991065
+      value: 1.7885938
       objectReference: {fileID: 0}
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.022579547
+      value: 0.029538326
       objectReference: {fileID: 0}
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.44287646
+      value: 0.25677457
       objectReference: {fileID: 0}
     - target: {fileID: 626771990517016515, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.00510177
+      value: -0.009653744
       objectReference: {fileID: 0}
     - target: {fileID: 4753325326824277156, guid: 3181eb930f38eb7478bc2a19f785a48f,
         type: 3}
@@ -455,8 +455,7 @@ PrefabInstance:
       propertyPath: _reticleMode
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 562352666050625949, guid: 3181eb930f38eb7478bc2a19f785a48f, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4753325326824277156, guid: 3181eb930f38eb7478bc2a19f785a48f,
