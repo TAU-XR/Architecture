@@ -21,6 +21,26 @@ public class PlayerMover : MonoBehaviour
     // Animation curve for the lerp
     public AnimationCurve lerpCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
+    // Audio source for the sound effect
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        // Ensure the blendShapeObject has an AudioSource
+        if (blendShapeObject != null)
+        {
+            audioSource = blendShapeObject.GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                Debug.LogError("No AudioSource found on the blendShapeObject!");
+            }
+        }
+        else
+        {
+            Debug.LogError("BlendShapeObject is not assigned!");
+        }
+    }
+
     /// <summary>
     /// Moves the player and blend shape object to the position of the target GameObject with blendshape lerping.
     /// </summary>
@@ -49,6 +69,12 @@ public class PlayerMover : MonoBehaviour
         {
             Debug.LogError("Target GameObject is null!");
             return;
+        }
+
+        // Play the audio clip from the blendShapeObject
+        if (audioSource != null)
+        {
+            audioSource.Play();
         }
 
         StartCoroutine(MoveWithBlendShapeAndTransform(targetObject));
