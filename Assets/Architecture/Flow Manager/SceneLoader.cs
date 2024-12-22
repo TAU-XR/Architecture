@@ -7,7 +7,11 @@ public class SceneLoader : MonoBehaviour
 
     void Start()
     {
-        // Load the second scene additively without touching the current scene
-        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Additive);
+        // Prevent the scene from loading when running in the Unity Editor
+        if (!Application.isEditor)
+        {
+            // Load the second scene additively without touching the current scene
+            SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Additive);
+        }
     }
 }
