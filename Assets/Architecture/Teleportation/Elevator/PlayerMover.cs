@@ -81,6 +81,27 @@ public class PlayerMover : MonoBehaviour
     }
 
     /// <summary>
+    /// Instantly moves the blendShapeTransformObject to the position of the specified GameObject.
+    /// </summary>
+    /// <param name="targetObject">The target GameObject to move the blendShapeTransformObject to.</param>
+    public void MoveBlendShapeTransformObject(GameObject targetObject)
+    {
+        if (blendShapeTransformObject == null)
+        {
+            Debug.LogError("BlendShapeTransformObject is not assigned!");
+            return;
+        }
+
+        if (targetObject == null)
+        {
+            Debug.LogError("Target GameObject is null!");
+            return;
+        }
+
+        blendShapeTransformObject.transform.position = targetObject.transform.position;
+    }
+
+    /// <summary>
     /// Coroutine to handle the blendshape lerp and synchronized movement.
     /// </summary>
     /// <param name="targetObject">The GameObject whose position the player will move to.</param>

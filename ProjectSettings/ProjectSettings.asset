@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: TAUXR Studio
-  productName: ArchitecturePlaytest
+  productName: ArchitecturePlaytest big env
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,9 +139,11 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1.0
+  bundleVersion: 0.2
   preloadedAssets:
   - {fileID: 11400000, guid: 757b7dcfef8a32647a4edc4a939fa758, type: 2}
+  - {fileID: 474786248239914460, guid: f7db628a5ee0256418e8c27aa87d5f76, type: 2}
+  - {fileID: 11400000, guid: ea433a37a58c3fc4182d950dba8ad61f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
