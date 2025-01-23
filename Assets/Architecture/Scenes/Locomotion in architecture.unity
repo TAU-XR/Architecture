@@ -3782,6 +3782,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  metaLocomotor: {fileID: 745274767}
 --- !u!1001 &514508522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6423,6 +6424,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc024b9345b2004087314aab09aa8bb, type: 3}
+--- !u!114 &745274767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8591284034288609086, guid: 21524f4e08fea9c488177c76c444294d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1447571667985936147}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b07f2ca3663a6041b075ea23c02a6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &754610270
 PrefabInstance:
   m_ObjectHideFlags: 0
