@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: diffuse_0
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 9b0c7c0ae6f585c46b5640b5968a0e79, type: 2}
+  m_Parent: {fileID: 2100000, guid: 12825012f2fd513439f0f3db1fabe952, type: 2}
   m_ModifiedSerializedProperties: 8
   m_ValidKeywords: []
   m_InvalidKeywords: []
