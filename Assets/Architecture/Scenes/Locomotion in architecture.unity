@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: a8cf015c9a69da041bbe5e45c930ed3d
+  m_OcclusionCullingData: {fileID: 36300000, guid: 9273c367cc5a1bd47a71d9ade735289e,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -23,7 +24,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
@@ -35,10 +36,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028556, g: 0.2257169, b: 0.30692405, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +98,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: c9435e1c8c6daba47b4e7b564b45a168,
+  m_LightingDataAsset: {fileID: 112000002, guid: 4838410e06a8f0a43ad0a3cc92b0a14b,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: c99b2ed1f3e3d974c8b6bc3fc0cf0524,
     type: 2}
@@ -14821,7 +14822,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5870
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 3218.8992, y: 6e-44, z: 2.1e-44, w: 2.1518e-41}
+  m_BoundingSphereOverride: {x: 0, y: 9.6283273e-35, z: 3.83e-43, w: 8e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -16795,6 +16796,21 @@ PrefabInstance:
       propertyPath: controllerDrivenHandPosesType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4723797571413042720, guid: 21524f4e08fea9c488177c76c444294d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723797571413042720, guid: 21524f4e08fea9c488177c76c444294d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723797571413042720, guid: 21524f4e08fea9c488177c76c444294d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4723797571413502458, guid: 21524f4e08fea9c488177c76c444294d,
         type: 3}
       propertyPath: m_ClearFlags
@@ -16804,6 +16820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_showState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118785010139313436, guid: 21524f4e08fea9c488177c76c444294d,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5809428772436698695, guid: 21524f4e08fea9c488177c76c444294d,
         type: 3}
