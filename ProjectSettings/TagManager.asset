@@ -9,6 +9,11 @@ TagManager:
   - RoomLight
   - SamplesInfoPanel
   - PlayerHead
+  - Locomotion
+  - PassThrough
+  - PassThroughButton
+  - LocoButton
+  - LocoText
   layers:
   - Default
   - TransparentFX
@@ -19,7 +24,7 @@ TagManager:
   - Tutorial
   - IgnoreEyeTracking
   - Building
-  - 
+  - Floor
   - 
   - 
   - 

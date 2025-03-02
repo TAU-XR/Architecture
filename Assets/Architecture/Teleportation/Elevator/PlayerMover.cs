@@ -203,7 +203,7 @@ public class PlayerMover : MonoBehaviour
         }
 
         // 4) Move the blendShapeTransformObject to the player's new position
-        blendShapeTransformObject.transform.position = player.transform.position;
+        blendShapeTransformObject.transform.position = targetObject.transform.position;
 
         // Reset the timer for the second lerp
         elapsedTime = 0f;
